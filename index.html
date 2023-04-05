@@ -251,16 +251,15 @@
                 </div>
                 <div class="code-wrapp">
                     <code>
-                        let myBox = new Map();
-                        myBox.set("Коробка№1", "20руб.");<br>
-                        myBox.set("Коробка№2", "30руб.");<br>
-                        myBox.set("Коробка№3", "40руб.");<br>
-                        myBox.set("Коробка№4", "50руб.");<br>
-                        myBox.set("Коробка№5", "60руб.");<br>
-                        myBox.set("Коробка№6", "70руб.");<br>
-                        myBox.set("Коробка№7", "80руб.");<br>
-                        for (let user of myBox.keys()){<br> 
-                        console.log(user + " Цена: " + myBox.get(user));}<br>
+                        let myBox = new Map(); myBox.set("Коробка №1", "20руб.");<br>
+                        myBox.set("Коробка №2", "30руб.");<br>
+                        myBox.set("Коробка №3", "40руб.");<br>
+                        myBox.set("Коробка №4", "50руб.");<br>
+                        myBox.set("Коробка №5", "60руб.");<br>
+                        myBox.set("Коробка №6", "70руб.");<br>
+                        myBox.set("Коробка №7", "80руб.");<br>
+                        for (let user of myBox.keys()){<br>
+                        console.log(`Ключ - ${user}, значение - ${myBox.get(user)}`)}<br>
                     </code>
                 </div>
             </div>
